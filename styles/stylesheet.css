@@ -115,13 +115,14 @@ blockquote p {
 .container3 {
   position: relative;
   text-align: left;
-  color: red;
+  padding: 0.5rem;
+  color: white;
   width: 100%;
   background-image: url("../images/footerimage.jpg");
   /* background-size: 100% 100%; */
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid green;
+  /* border: 5px solid green; */
 }
 .graf1 {
   position: relative;
@@ -185,12 +186,16 @@ blockquote p {
 }
 .float-right {
   float: right;
-  width: 48%;
+  width: 45%;
+  display: flex;
+  position: absolute;
 }
 .float-left {
   float: left;
-  width: 48%;
+  width: 45%;
   padding-left: 0.3125rem;
+  display: flex;
+  position: absolute;
 }
 .image-row2 {
   width: 48%;
